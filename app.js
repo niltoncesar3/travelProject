@@ -1,9 +1,6 @@
 AOS.init();
 
 
-// background image slider
-
-
 //navbar
 
 const navbar = document.querySelector('.navbar');

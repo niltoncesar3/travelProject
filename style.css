@@ -112,28 +112,7 @@ body {
     background: var(--gradient-bottom);
 }
 
-/* SLIDER GRID */
-
-.slider-grid{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.grid-item {
-    width: 100%;
-    height: 100%;
-    background: #161813;
-    opacity: 1;
-    transition: .5s;
-    pointer-events: none;
-}
-
-.grid-item.hide{
-    opacity: 0;
-}
+/* GRID */
 
 .hero-section-title{
     font-family: 'roboto slab', serif;
